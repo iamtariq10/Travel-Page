@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin: 1%;
+    color: white;
+    background-color: rgb(104, 24, 0);
+    padding-top: 0.5rem;
+    
+}
+.trav{
+    color: rgb(0, 117, 138);
+}
+
+.header-h1{
+    margin-right:72rem; 
+    margin-top: 1rem;
+    color: rgb(255, 255, 255);
+}
+i{
+  padding: 1.6rem;
+  
+}
+
+ul li{
+
+    display: inline-block;
+    margin: 1rem;
+    
+    
+
+}
+
