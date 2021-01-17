@@ -13,7 +13,7 @@
     color: white;
     background-color: rgb(104, 24, 0);
     height: 5rem;
-    
+    position: sticky;
     
 }
 .trav{
@@ -89,4 +89,45 @@
     font-weight: bolder;
 
 }
+
+
+
+.showcase{
+    background: url('./travelb.png') ;
+    background-repeat: no-repeat;
+    min-width: 500px;
+    background-size:cover;
+    height: 1000px;
+    opacity: 0.8;
+ 
+}
+
+.heav{
+    color: rgb(0, 117, 138);
+    /* text-shadow: 0px 0px 6px green; */
+}
+
+.headingshow{
+
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    padding-top: 9rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
