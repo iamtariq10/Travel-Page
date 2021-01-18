@@ -3,21 +3,23 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
-
 
 
 .Header{
     
-     
+     position: sticky;
+     top: 0;
     color: white;
-    background-color: rgb(104, 24, 0);
+    background-color: rgba(0, 0, 0,.76);
     height: 5rem;
-    position: sticky;
+    z-index: 2;
+
     
 }
 .trav{
-    color: rgb(0, 117, 138);
+    color: rgb(209, 77, 0);
 }
 
 .header-h1{
@@ -46,8 +48,18 @@
 
 }
 .active{
-    color: rgb(0, 117, 138);
+    color: rgb(209, 77, 0);
     font-weight:bolder;
+}
+.active:hover{
+    color: rgb(0, 130, 153);
+    cursor: pointer;
+    transition: all .1s ease-in;
+    font-weight:bolder;
+    /* text-shadow: 0px 0px 1px rgb(0, 117, 138) ; */
+    border-bottom: 2.5px solid rgb(0, 117, 138);
+    line-height: 22px;
+  
 }
 
 .navigation ul{
@@ -68,12 +80,12 @@
 
 
 .list_links:hover{
-    color: rgb(0, 130, 153);
+    color: rgb(209, 77, 0);
     cursor: pointer;
     transition: all .1s ease-in;
     font-weight:bolder;
-    /* text-shadow: 0px 0px 1px rgb(0, 117, 138) ; */
-    border-bottom: 2.5px solid rgb(0, 117, 138);
+    text-shadow: 0px 0px 1px rgb(0, 117, 138) ;
+    border-bottom: 2.5px solid rgb(209, 77, 0);
     line-height: 22px;
     
     
@@ -86,24 +98,28 @@
     cursor: pointer;
     transition: all .5s ease;
     text-shadow: none;
-    font-weight: bolder;
+
+    font-weight: lighter;
 
 }
 
 
 
 .showcase{
-    background: url('./travelb.png') ;
+    background: url('./travela.jpg') ;
     background-repeat: no-repeat;
     min-width: 500px;
     background-size:cover;
     height: 1000px;
     opacity: 0.8;
+    /* z-index: -1; */
+    position: relative;
+    
  
 }
 
 .heav{
-    color: rgb(0, 117, 138);
+    color: rgb(2, 184, 11);
     /* text-shadow: 0px 0px 6px green; */
 }
 
@@ -111,7 +127,7 @@
 
     text-align: center;
     color: white;
-    text-shadow: 1px 1px 5px black;
+    text-shadow: 2px 2px 4px black;
     font-size: 2.5rem;
     font-weight: lighter;
     padding-top: 9rem;
@@ -119,9 +135,97 @@
 }
 
 
+.tour-btn{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    padding: 13px 10px;
+    border: none;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    margin: 0.2rem;
+    cursor: pointer;
+    
 
 
+}
+.tour-btn:hover{
+    background-color: rgb(199, 75, 3);
+    cursor: pointer;
+    color: white;
+    transform:rotate(360deg);
+    transition: all .7s;
+}
 
+#tour-btn{
+    margin: 1rem 0 0 35rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.where{
+    /* display: flex; */
+    /* flex-direction: row; */
+
+    padding: 5px 10px;
+    background-color:rgb(199, 75, 3);
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    justify-items: center;
+}
+.where h2{
+    color: white;
+    text-shadow: 0px 0px 4px black;
+    /* margin: 1rem 0 0 6rem; */
+    text-align: center;
+    padding-top: 2.5rem;
+    
+}
+.sec-inputs{
+    padding:0.3rem ;
+    margin: 1.3rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px black;
+    display: block;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.three-input{
+    
+    /* width: 100%; */
+    margin-left: 37.5rem;
+    text-align: center;
+
+} 
+
+.search{
+    position: relative;
+    left: 33.5rem;
+    padding:0.3rem ;
+    margin: 1rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px black;
+    display: block;
+    width: 21%;
+    text-align: center;
+    background-color:rgb(238, 87, 0) ;
+    color: white;
+    cursor: pointer;
+}
+
+.search:hover{
+    background-color: white;
+    color: rgb(199, 75, 3);
+    transition: all 0.4s;
+}
 
 
 
