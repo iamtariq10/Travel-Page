@@ -350,11 +350,14 @@ font-size: 2rem;
     cursor: pointer;
 }
 .facilities{
-    margin-top: 15rem;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    background: url(./airplan.png) no-repeat;
+    background-size: 60% 88%;
+    height: 1000px;
 }
 
 .fac-img{
@@ -362,6 +365,11 @@ align-items: center;
 justify-content: center;
 text-align: center;
 margin: 10px;
+position: relative;
+top: 25rem;
+text-shadow: 1px 0px  2px black;
+padding:10px;
+color: rgb(238, 87, 0);
 
 }
 
@@ -369,9 +377,56 @@ margin: 10px;
 
 
 .fac-img img{
-    width: 7rem;
-    height: 7rem;
+    width: 10rem;
+    height: 10rem;
     margin: 5px;
+    box-shadow: 0px 0px 4px black;
+    padding:20px;
+    border-radius: 10px;
+    background-color: rgb(238, 87, 0);
     
 
+}
+
+.fac-img h3,p{
+    padding-top: 15px;
+}
+
+
+.time{
+    background: url(./time.png) no-repeat;
+    background-size: 100% 100%;
+    height: 540px;
+    width: 47%;
+}
+
+
+.reg-form{
+    background-color:rgb(238, 87, 0) ;
+    display: inline-block;
+    width: 379px;
+    height: 471px;
+    border-radius: 10px;
+
+}
+
+.reg-form h2,input{
+    padding: 20px 49px;
+    text-align: center;
+    margin-left: 59px;
+    border: none;
+    border-radius: 2px;
+    
+}
+.reg-form input{
+    box-shadow: 1px 1px 2px black;
+}
+.reg-form h4{
+    margin-left: 10px;
+}
+
+.time-trav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
