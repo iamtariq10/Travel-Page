@@ -5,6 +5,10 @@
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
+@font-face{
+    font-family: myFont;
+    src: url(./VictorMono-Light.otf);
+}
 
 
 .Header{
@@ -119,8 +123,12 @@
 }
 
 .heav{
-    color: rgb(2, 184, 11);
-    /* text-shadow: 0px 0px 6px green; */
+    color: rgb(263, 56, 17);
+    
+    text-shadow: 3px 4px 0px black;
+}
+.show-h1{
+    text-shadow: 3px 8px 2px rebeccapurple;
 }
 
 .headingshow{
@@ -131,6 +139,7 @@
     font-size: 2.5rem;
     font-weight: lighter;
     padding-top: 9rem;
+    font-family: myFont;
     
 }
 
@@ -356,8 +365,8 @@ font-size: 2rem;
     flex-wrap: wrap;
     justify-content: space-around;
     background: url(./airplan.png) no-repeat;
-    background-size: 60% 88%;
-    height: 1000px;
+    background-size: 47% 94%;
+    height: 650px;
 }
 
 .fac-img{
@@ -366,13 +375,16 @@ justify-content: center;
 text-align: center;
 margin: 10px;
 position: relative;
-top: 25rem;
+top: 219px;
 text-shadow: 1px 0px  2px black;
 padding:10px;
 color: rgb(238, 87, 0);
 
 }
 
+.Subscribe-letter input[type=button]:hover{
+    background-color: rgb(255, 114, 33);
+}
 
 
 
@@ -404,8 +416,8 @@ color: rgb(238, 87, 0);
 .reg-form{
     background-color:rgb(238, 87, 0) ;
     display: inline-block;
-    width: 379px;
-    height: 471px;
+    width: 391px;
+    height: 570px;
     border-radius: 10px;
 
 }
@@ -416,16 +428,41 @@ color: rgb(238, 87, 0);
     margin-left: 59px;
     border: none;
     border-radius: 2px;
+    cursor: pointer;
+    
+}
+
+.reg-form h2{
+    margin-right: 5rem;
+    color: white;
+    font-size: 1.78rem;
+    text-shadow: 1px 1px 3px black;
+}
+.reg-form input[type=button]{
+    margin-top: 2rem;
+    margin-left: 123px;
+    background-color:rgb(199, 75, 3)  ;
+    
+    color:white
+}
+.reg-form input[type=button]:hover{
+
+    background-color: rgba(255, 94, 0, 0.876)
     
 }
 .reg-form input{
     box-shadow: 1px 1px 2px black;
 }
-.reg-form h4{
-    margin-left: 10px;
+.reg-form h4 {
+    margin-top: 11px;
+    margin-left: 61px;
+    padding-top: 8px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
 }
 
 .time-trav{
+    margin-top: -14px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
