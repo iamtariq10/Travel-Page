@@ -125,10 +125,10 @@
 .heav{
     color: rgb(263, 56, 17);
     
-    text-shadow: 3px 4px 0px black;
+    text-shadow: 3px 4px 6px black;
 }
 .show-h1{
-    text-shadow: 3px 8px 2px rebeccapurple;
+    text-shadow: 3px 5px 8px black;
 }
 
 .headingshow{
@@ -466,4 +466,130 @@ color: rgb(238, 87, 0);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+
+footer{
+    background-color: #24262b;
+    margin-top: 10rem;
+    height: auto;
+}
+
+.container-foot{
+    max-width: 1170px;
+    margin: auto;
+    
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.footer-col{
+    width: 25%;
+    padding: 2px 15px;
+    margin-bottom: 3rem;
+
+}
+
+.footer-col h4{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -13px;
+    box-sizing: border-box;
+    background-color:rgb(238, 87, 0)  ;
+    width: 50px;
+    height: 3px;
+
+}
+
+
+
+.social-icons a{
+
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(53, 51, 51);
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    
+
+
+}
+
+.social-icons a:hover{
+    background-color: white;
+    color:rgb(53, 51, 51) ;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+.footer-col ul li{
+    list-style: none;
+    padding: 10px 0;
+
+}
+
+
+
+.footer-col ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-col ul li a:hover{
+    padding-left: 10px;
+    color: whitesmoke;
+    transition: all 0.3s ease;
+}
+
+
+/* Responsive footer */
+
+@media only screen and (max-width:768px)
+{
+
+    .footer-col {
+        width: 33%;
+        padding: 7px 27px;
+        
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width:540px){
+
+
+
+    .footer-col {
+        width: 100%;
+        padding: 7px 27px;
+       
+    }
 }
